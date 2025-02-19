@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #36d1dc;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #5b86e5;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    text-decoration: none;
+    background: #fff;
+    color: #5b86e5;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    background: #5b86e5;
+    color: #fff;
+}
